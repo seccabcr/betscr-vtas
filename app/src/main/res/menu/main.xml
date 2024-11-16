@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_salir"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Salir"
+        app:showAsAction="withText|always"
+        />
+
+    <item
+        android:id="@+id/main_login"
+        android:title="Login"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/main_cambia_pin"
+        android:title="Cambiar Pin"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/main_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

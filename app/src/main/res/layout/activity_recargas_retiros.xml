@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".actividades.RecargasRetiros">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/azulPrimario"
+        android:gravity="center"
+        android:text="RECARGAS Y RETIROS"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!--Button
+            android:id="@+id/con_tktsEmitidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTA TIQUETES EMITIDOS"
+            /-->
+
+        <Button
+            android:id="@+id/recargas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recarga de cuentas"
+            />
+
+        <Button
+            android:id="@+id/rep_recargas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORTE RECARGAS X PERIODO"
+             />
+
+
+
+        <Button
+            android:id="@+id/pago_retiros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAGO DE RETIROS"
+            />
+
+        <Button
+            android:id="@+id/rep_pago_retiros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORTE RETIROS PAGADOS"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

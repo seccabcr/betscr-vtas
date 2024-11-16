@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/iRepRec_numRec"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="########"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/iRepRec_fecRecarga"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iRepRec_numRec"
+            android:text="dd/mm/aaaa"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/iRepRec_monRecarga"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iRepRec_fecRecarga"
+            android:text="###,###,###"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/iRepRec_monComision"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="2dp"
+            android:text="###,###,###"
+            android:textAlignment="textEnd" />
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+</LinearLayout>

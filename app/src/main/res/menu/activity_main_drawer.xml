@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ventaTKT"
+            android:icon="@drawable/ic_venta_tiquete"
+            android:title="Venta Tiquetes" />
+
+        <item
+            android:id="@+id/nav_recargas"
+            android:icon="@drawable/baseline_format_list_bulleted_24"
+            android:title="Recargas / Retiros" />
+
+
+
+
+    </group>
+
+    <item android:title="Reportes">
+        <menu>
+            <item
+                android:id="@+id/nav_repVentaDia"
+                android:icon="@drawable/ic_report_item"
+                android:title="Tiquetes Emitidos" />
+            <item
+                android:id="@+id/nav_repPremios"
+                android:icon="@drawable/ic_report_item"
+                android:title="Tiquetes Premiados" />
+
+            <item
+                android:id="@+id/nav_repListas"
+                android:icon="@drawable/ic_report_item"
+                android:title="Lista de numeros" />
+            <item
+                android:id="@+id/nav_repRes_sorteos"
+                android:icon="@drawable/ic_report_item"
+                android:title="Resumen x Sorteo" />
+            <item
+                android:id="@+id/nav_repRes_periodo"
+                android:icon="@drawable/ic_report_item"
+                android:title="Resumen x Periodo" />
+
+            <item
+                android:id="@+id/nav_repEstadoCuenta"
+                android:icon="@drawable/ic_report_item"
+                android:title="Estado de cuenta" />
+
+        </menu>
+
+
+
+    </item>
+
+
+</menu>
